@@ -1,0 +1,59 @@
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    margin: 0.5rem;
+    padding: 0;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li.icon {
+    flex-basis: 25%;
+}
+
+header {
+    background: cadetblue;
+    padding: 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: .25rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: teal;
+}
+
+a:hover {
+    background: yellowgreen;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    margin-top: 60px; /* 상단 고정 영역 아래에 콘텐츠 배치 */
+}
