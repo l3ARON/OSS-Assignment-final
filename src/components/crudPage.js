@@ -90,9 +90,8 @@ const App = () => {
   }, []);
 
   return (
-
     <div className="container">
-      <button className='create_btn' onClick={() => openModal()}>Create</button>
+      <button className='create_btn' onClick={() => openModal()}>Add</button>
 
       <table className="data_table">
         <thead>
